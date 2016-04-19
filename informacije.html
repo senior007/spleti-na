@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" media="screen and (min-device-width: 960px)" type="text/css" href="index.css" />
+		<link rel="stylesheet" media="screen and (max-device-width: 960px)" type="text/css" href="index_mobile.css" />
+        <title>X. spominski sestanek</title>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script>
+		  function initialize() {
+			var mapCanvas = document.getElementById('map_canvas');
+			var mapOptions = {
+			  center: new google.maps.LatLng(46.084184, 14.514174),
+			  zoom: 16,
+			  mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
+			var map = new google.maps.Map(mapCanvas, mapOptions)
+					  var marker = new google.maps.Marker({    
+      position: new google.maps.LatLng(46.084184, 14.514174),    
+      map: map    
+    }); 
+		  }
+ 
+		  google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+    </head>
+    <body>
+        <div id="head">
+        	<div id="logo">
+        		<img src="ribbon.png" alt="bla" width="170" height="200">
+        	</div>
+        	<header>
+        	
+        	</header>
+        </div>
+        
+        <div id="vsebina">
+			<div id="levo">
+			<p>Slovensko društvo za reproduktivno medicino</p>
+			<p>KO za reprodukcijo, Ginekološka klinika UKC Ljubljana</p>
+			<p>Klinika za ginekologijo in perinatologijo UKC Maribor</p>
+			<nav>
+				<ul id="menu">
+					<li><a href="index.html">Prva stran</a></li>
+					<li><a href="program.html">Program</a></li>
+					<li><a href="informacije.html" ><font color="#008F6B">Informacije</font></a></li>
+					<li><a href="online.html">Prijave - online</a></li>
+					<li><a href="regform.pdf">Prijave - obrazec</a></li>				
+					<li><a href="program.pdf" target="_blank">Končni program</a></li>
+				</ul>
+			</nav>
+			</div>
+			
+			<div id="content">
+				<p><b>Datum:</b> 28.11.2014</p>
+				<p><b>Kotizacija: </b>Kotizacija za zdravnike specialiste je 120 € (z DDV),
+					za specializante in drugo zdravstveno in nezdravstveno osebje 70 € (z DDV)</p>
+				<p><b>Vloga za pridobitev kreditnih točk na ZZS je v postopku</b></p>
+				<p><b>Prijave:</b><br />
+				Martina Pečlin, Ginekološka klinika, Šlajmerjeva 3, 1000 Ljubljana<br />
+				Tel. in fax: +386-1-522-6020, +386-1-439-7590<br />
+				e-pošta: martina.peclin@kclj.si<br />
+				spletna stran: <a href="http://www.obgyn-si.org/ad-2014">http://www.obgyn-si.org/ad-2014/</a><br />
+				</p>	
+				<p><b>Lokacija:</b> Domus Medica, Dunajska cesta 162, Ljubljana</p>
+				<div id="map_canvas"></div>
+				<p><b><font color="#008F6B">Strokovni odbor</font></b></p>
+				<p><b>Predsednica:</b> prof. Bojana Pinter, dr. med.</p>
+				<p><b>Člani:</b> prof. dr. Iztok Takač, dr. med., svetnik, doc. dr. Andrej Vogler, dr. med., prof. dr. Eda Vrtačnik Bokal,
+				 dr. med., prof. dr. Veljko Vlaisavljević, dr. med., višji svetnik, prim. Danilo Maurič, dr. med., Andreja Štolfa Gruntar, dr. med.,
+				  Cvetka Fakin−Skušek, dr. med., Lidija Margič, dr. med., Alenka Krenčič − Zagode, dr. med., Lena Žigon, dr. med.,
+				   doc. dr. Vislava Globevnik Velikonja, spec. klin. psihologije</p><br />	
+			
+				<p><b><font color="#008F6B">Organizacijski odbor</font></b></p>
+				<p><b>Predsednik: </b>doc. dr. Andrej Voler, dr. med.</p>
+				<p><b>Člani:</b> prof. dr. Bojana Pinter, dr. med., Martina Pečlin, dr. Ivan Verdenik, univ. dipl. ing., Nataša Petkovšek, as. dr. Barbara Požlep, dr. med., as. dr. Helena Ban Frangež, dr. med., doc. dr. Nina Jančar, dr. med., as. dr. Sara Korošec, dr. med.</p>
+				<br />	
+				<p><b><font color="#008F6B">Častni odbor</font></b></p>
+				
+				<p>prof. dr. Elko Borko, dr. med., prim. Tošo Cizelj, dr. med., Darinka Kos, dr. med., prof. dr. Božo Kralj, dr. med., Božena Krušič, prim. mag. Alenka Pretnar Darovec, dr. med., prim. mag. Marija Pompe Tanšek, dr. med., prim. mag. Alenka Fetih, dr. med. </p>
+				<br />
+					
+        </div>
+    </body>
+</html>

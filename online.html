@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" media="screen and (min-device-width: 960px)" type="text/css" href="index.css" />
+		<link rel="stylesheet" media="screen and (max-device-width: 960px)" type="text/css" href="index_mobile.css" />
+        <title>X. spominski sestanek</title>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script>
+		  function initialize() {
+			var mapCanvas = document.getElementById('map_canvas');
+			var mapOptions = {
+			  center: new google.maps.LatLng(46.084184, 14.514174),
+			  zoom: 16,
+			  mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
+			var map = new google.maps.Map(mapCanvas, mapOptions)
+					  var marker = new google.maps.Marker({    
+      position: new google.maps.LatLng(46.084184, 14.514174),    
+      map: map    
+    }); 
+		  }
+ 
+		  google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+    </head>
+    <body>
+        <div id="head">
+        	<div id="logo">
+        		<img src="ribbon.png" alt="bla" width="170" height="200">
+        	</div>
+        	<header>
+        	
+        	</header>
+        </div>
+        
+        <div id="vsebina">
+			<div id="levo">
+			<p>Slovensko društvo za reproduktivno medicino</p>
+			<p>KO za reprodukcijo, Ginekološka klinika UKC Ljubljana</p>
+			<p>Klinika za ginekologijo in perinatologijo UKC Maribor</p>
+			<nav>
+				<ul id="menu">
+					<li><a href="index.html">Prva stran</a></li>
+					<li><a href="program.html">Program</a></li>
+					<li><a href="informacije.html" >Informacije</a></li>
+					<li><a href="online.html"><font color="#008F6B">Prijave - online</font></a></li>
+					<li><a href="regform.pdf">Prijave - obrazec</a></li>				
+					<li><a href="program.pdf" target="_blank">Končni program</a></li>
+				</ul>
+			</nav>
+			</div>
+			
+			<div id="content">
+			
+			        
+<form action = "http://www.obgyn-si.org/ad-2014/registration_form.php" method="post" name="Subscribe">
+<input name="required" value="ime,priimek,naslov,email,placnik,davcna,zavezanec,sstatus" type="hidden">
+<input name="subject" value="Elektronska registracija za X. spominsko srečanje Lidije Andolšek 2014" type="hidden">
+
+				<table>
+				<tr>
+					<td><p class="vloga"><b>Udeleženec</b></p></td>
+					<td></td>
+				<tr>
+				<tr>
+					<td class="prijava">Ime:</td>
+					<td><input size="18" name="ime" maxlength="55" type="text"></td>
+				</tr>
+				<tr>
+					<td class="prijava">Priimek: </td>
+					<td><input size="18" name="priimek" maxlength="55" type="text"></td>
+				</tr>
+				<tr>
+					<td class="prijava">Naslov zaposlitve:</td>
+					<td><input size="36" name="naslov" maxlength="256" type="text"></td>
+				</tr>
+				<tr>
+					<td class="prijava">Telefon:</td>
+					<td><input name="phone" size="18" type="text"><br></td>
+				</tr>
+				<tr>
+					<td class="prijava">Email:</td>
+					<td><input name="email" size="18" type="text"></td>
+				</tr>
+				<tr>
+					<td><p class="vloga"><b>Plačnik</b></p></td>
+					<td></td>
+				<tr>
+					<td class="prijava">Ustanova, naslov</td>
+					<td><input size="36" name="placnik" maxlength="256" type="text"></td>
+				</tr>
+				<tr>
+					<td class="prijava">Davčna številka plačnika:</td>
+					<td><input size="18" name="davcna" maxlength="25" type="text"></td>
+				</tr>
+				<tr>
+					<td class="prijava">Davčni zavezanec:</td>
+					<td><input type="radio" name="zavezanec" value="da">DA
+						<input type="radio" name="zavezanec" value="ne">NE</td>
+				</tr>
+				<tr>
+					<td class="prijava">Udeležil se bom kot: </td>
+					<td style="vertical-align: top;">
+						<select name="sstatus">
+							<option value="Specializant">Specializant in drugi (70 €)</option>
+							<option selected="selected" value="Specialist">Specialist (120€)</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input class="gumb" value=" &nbsp; &nbsp; Pošlji prijavnico &nbsp; &nbsp; " type="submit"> </td>
+				</tr>
+			</table>	
+
+			</div>
+        </div>
+    </body>
+</html>

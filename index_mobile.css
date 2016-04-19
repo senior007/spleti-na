@@ -1,0 +1,159 @@
+html{
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+body { 
+	width:960px;
+	padding:0px;
+	margin:0px;
+}
+#head{
+	position: relative;
+	width: 960px;
+	height: 200px;
+	
+}
+#logo{
+	position: absolute;
+	left: 0px;
+	width: 170px;
+	height: 200px;
+}
+#logo p{
+		text-align:center;
+		font-size: 18px;
+		color:#505050;
+}
+header{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 790px;
+	height: 200px;
+    background-image:url('oo2s.jpg');
+	background-position: 0% -70%;
+	background-repeat: no-repeat;
+	border-bottom: solid black 1px;
+}
+nav{
+	font-size: 16px;
+	
+}
+
+#map_canvas {
+        width: 760px;
+        height: 300px;
+        left:50%;
+        margin-left:-380px;
+      }
+
+#menu {
+	margin:0 auto;
+	display: inline-block;
+	list-style:none;
+	padding:0;
+}
+#menu ul {
+    margin:0 auto;
+    padding:0;
+}
+#menu li {
+    float: left;
+    position: relative;
+    list-style: none;
+    border-top: solid gray 1px;
+    border-bottom: solid gray 1px;
+}
+#menu li a {
+	display:block;
+	padding:5px 0px;
+	width: 170px;
+	text-decoration:none;
+	font-weight:bold;
+	white-space: nowrap;
+	color:#505050;
+}   
+#menu li a:hover {
+	color:#00A37A;
+
+}
+
+#vsebina{
+	width: 960px;
+	padding:2px;
+}
+#levo{
+	width: 170px;
+	font-size: 10px;
+	display: inline-block;
+}
+#content{
+	position: absolute;
+	left: 170px;
+	width: 790px;
+	display: inline-block;
+	
+}
+
+#content p{
+	margin-left: 25px;
+}
+#tanja{
+	float: right;
+	margin-left: 20px;
+	padding-top:55px;
+}
+#program{
+	padding-top:20px;
+	margin-left:25px;
+}
+.ura{
+	padding-right:30px;
+	border-bottom: solid 1px #d0d0d0;
+	font-weight:bold;
+	width:100px;
+}
+.predavatelj{
+	padding-right:30px;
+	border-bottom: solid 1px #d0d0d0;
+	width:300px;
+}
+.naslov{
+	border-bottom: solid 1px #d0d0d0;
+	width:300px;
+}
+.posebna td{
+	background: LightGray;
+}
+.forum{
+	border-bottom: solid 1px #d0d0d0;
+	width:600px;
+}	
+.ti{
+	font-size: 30px;
+	color: #00A37A;
+}
+.sub{
+	font-size: 20px;
+		color: #00A37A;
+}
+
+#content table .gumb{
+	background-color: #888888;
+}
+#content a{
+	color:#880000;
+}
+#content .info {
+	display: inline-block;
+	padding-top:25px;
+	padding-left:0px;
+}
+#content .info th{
+	text-align:left;	
+}
+#content .info td,th{
+	padding-right: 30px;	
+}
+#content .info .drugi{
+	padding-left:50px;
+}
